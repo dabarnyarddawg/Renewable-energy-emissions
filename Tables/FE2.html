@@ -1,0 +1,42 @@
+
+<table style="text-align:center"><tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="5"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="5" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="4">Emissions (Tons)</td><td>Emissions_tons</td></tr>
+<tr><td style="text-align:left"></td><td colspan="4"><em>OLS</em></td><td><em>panel</em></td></tr>
+<tr><td style="text-align:left"></td><td colspan="4"><em></em></td><td><em>linear</em></td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td></tr>
+<tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">log(Generation)</td><td>-279.161<sup>***</sup></td><td>-113.099<sup>***</sup></td><td>-99.633<sup>***</sup></td><td>-95.200<sup>***</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(7.634)</td><td>(7.149)</td><td>(7.515)</td><td>(20.249)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Total Load (MW)</td><td></td><td>0.039<sup>***</sup></td><td>0.039<sup>***</sup></td><td>0.036<sup>***</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Temperature (F)</td><td></td><td></td><td>2.126<sup>***</sup></td><td>-16.660<sup>**</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.383)</td><td>(6.880)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Square of Temp. (F)</td><td></td><td></td><td></td><td></td><td>-95.199</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(71.969)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Load_MW</td><td></td><td></td><td></td><td></td><td>0.036</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(0.024)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Temp_F</td><td></td><td></td><td></td><td></td><td>-16.661</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(18.813)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Temp_F_2</td><td></td><td></td><td></td><td></td><td>0.186</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td>(0.167)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Temp_F_2</td><td></td><td></td><td></td><td>0.186<sup>***</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.066)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>2,363.715<sup>***</sup></td><td>-2,366.893<sup>***</sup></td><td>-2,558.469<sup>***</sup></td><td>29,398.590<sup>***</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(55.905)</td><td>(69.964)</td><td>(80.486)</td><td>(383.858)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Fuel/Emissions Dummies</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+<tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>288,981</td><td>288,981</td><td>288,981</td><td>288,981</td><td>288,981</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.923</td><td>0.927</td><td>0.927</td><td>0.478</td><td>0.050</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.923</td><td>0.927</td><td>0.927</td><td>0.478</td><td>0.050</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>3,186.871 (df = 288947)</td><td>3,114.358 (df = 288946)</td><td>3,114.130 (df = 288945)</td><td>8,314.404 (df = 288947)</td><td></td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>105,440.600<sup>***</sup> (df = 33; 288947)</td><td>107,560.900<sup>***</sup> (df = 34; 288946)</td><td>104,504.300<sup>***</sup> (df = 35; 288945)</td><td>8,021.243<sup>***</sup> (df = 33; 288947)</td><td>450.085<sup>***</sup> (df = 34; 288914)</td></tr>
+<tr><td colspan="6" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="5" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
